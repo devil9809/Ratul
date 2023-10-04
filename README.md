@@ -1,5 +1,16 @@
 ## [Ratul](https://github.com/devil9809/Ratul) installer for [Termux](https://termux.com/)
-### Setup
+### Manually Installation Process
+```
+pkg install -y root-repo
+pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
+```
+```
+git clone https://github.com/devil9809/Ratul
+```
+```
+sudo python Ratul/ratul.py -i wlan0 -K
+```
+### Auto Setup
 ```
 curl -sSf https://raw.githubusercontent.com/devil9809/Professor_Ratul/main/installer.sh | bash
 ```
@@ -14,3 +25,5 @@ To check for updates and update, run the following command:
 (cd Ratul && git pull)
 ```
 Great Thnx to Professor Ratul
+
+Specially Thanks @OneShot
