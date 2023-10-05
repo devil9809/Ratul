@@ -17,6 +17,13 @@ import csv
 from pathlib import Path
 from typing import Dict
 
+print('''
+\033[1;92m Professor Ratul
++8801967674267
+Telegram:https://t.me/mdratulahmed
+One line Command:\nsudo python Ratul/ratul.py -i wlan0 -K\n
+For Help Type:\npython Ratul/ratul.py --help\033[0m
+''')
 
 class NetworkAddress:
     def __init__(self, mac):
