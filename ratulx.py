@@ -30,7 +30,7 @@ print("""\033[1;32m
  \033[1;37mTelegram:            @mr_professor3
  \033[1;37mGithub  :            @devil9809
  \033[1;35mOne line Command:
-\033[1;34msudo python Ratulx.py/ratulx.py-i wlan0 --iface-down -K
+\033[1;34m  sudo python Ratul/ratulx.py -i wlan0 --iface-down -K
 
  \033[1;36mNote    :       ROOT DEVICES ONLY
 \033[1;3m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
