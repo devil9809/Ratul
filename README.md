@@ -2,7 +2,7 @@
 ### Manually Installation Process
 ```
 pkg install -y root-repo
-pkg install -y git tsu python wpa-supplicant pixiewps iw openssl   git clone https://github.com/devil9809/Ratul
+pkg install -y git tsu python wpa-supplicant pixiewps iw openssl && git clone https://github.com/devil9809/Ratul
 ```
 ```
 sudo python Ratul/ratul.py -i wlan0 -K
